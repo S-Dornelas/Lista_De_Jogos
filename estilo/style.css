@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(139, 144, 232);
+    font-family: Tahoma;
+}
+
+header {
+    font-size: 10px;
+    text-align: right;
+}
+
+div#corpo {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffff;
+}
+
+form#busca {
+    font-size: 10px;
+    text-align: right;
+}
+
+table.listagem {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.listagem tr {
+    height: 50px;
+}
+
+table.listagem td {
+    border: 1px solid #ffff;
+    padding: 10px;
+}
+
+table.listagem tr:nth-child(even) {
+    background-color: #ffff;
+}
+
+table.listagem td:nth-child(1) {
+    width: 50px;
+}
+
+table.listagem td:nth-child(3) {
+    width: 90px;
+}
+
+table.detalhes {
+    width: 100%;
+    text-align: center; /* Centraliza o conteúdo na tabela */
+}
+
+table.detalhes td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+img.mini {
+    height: 50px;
+}
+
+
+img.grande {
+    width: 100%;
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+table.detalhes h2 {
+    text-align: center; /* Centraliza o título do jogo */
+}
+
+table.detalhes p {
+    text-align: center; /* Centraliza a descrição do jogo */
+}
+
+footer {
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    font-family: Arial;
+}
+
+div.sucesso {
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border-color: 15px;
+    background-color: (226, 239, 218);
+    color: (74, 116, 67);
+}
+
+div.aviso {
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border-color: 15px;
+    background-color:rgb(172, 175, 102);
+    color: (134, 110, 66);
+}
+
+div.erro {
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border-color: 15px;
+    background-color: (239, 223, 222);
+    color: (157, 75, 69);
+}
+
